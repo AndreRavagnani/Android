@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3" >   
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saudacao"
+        android:textColor="#FFF" />
+    
+    <Button 
+        android:id="@+id/ipMonitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesso Ao IPMonitor"/>
+    <Button 
+        android:id="@+id/ipClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesso Ao IPClient"/>
+    <Button 
+        android:id="@+id/ipConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesso As Configurações" />
+    
+        <Button 
+        android:id="@+id/tsGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesso Ao Google" />
+    
+     <ImageView 
+        android:src="@drawable/softium"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
